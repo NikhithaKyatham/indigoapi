@@ -124,7 +124,7 @@ output application/json
         </error-handler>
     </flow>
     <flow name="get:\indigoFlights:indigoapi-config">
-		<flow-ref doc:name="indigoFlightsFlow" doc:id="08f6b759-ec85-4a25-b371-605c865186ce" name="indigoHTTPSFlow"/>
+		<flow-ref doc:name="indigoFlightsFlow" doc:id="08f6b759-ec85-4a25-b371-605c865186ce" name="indigoFlightsFlow"/>
 		<logger level="INFO" doc:name="Logger" doc:id="4895e0c3-7e55-4562-bdde-6545e1538550" message="Final response from indigoFlights............"/>
     </flow>
 </mule>
