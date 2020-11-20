@@ -31,6 +31,19 @@
 				<extensions>true</extensions>
 				<configuration>
 				<classifier>mule-application</classifier>
+					 <cloudHubDeployment>
+					      <uri>https://anypoint.mulesoft.com</uri>
+					      
+					      <username>nikhitha_kyatham</username>
+					      <password>Nikki@123</password>
+					      <environment>sandbox</environment>
+					      <applicationName>indigoapi-jen</applicationName>
+					      <muleVersion>4.3.0</muleVersion>
+					      <region>${region}</region>
+					      <workers>1</workers>
+					      <workerType>MICRO</workerType>
+					      
+					  </cloudHubDeployment>
                 </configuration>
 			</plugin>
 		</plugins>
